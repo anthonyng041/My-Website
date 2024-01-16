@@ -27,8 +27,20 @@ function About() {
       </div>
       <div>
         <h2>Hobbies</h2>
-        <div><p></p><img /></div>
-        <div><img /><p></p></div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+            dapibus lobortis elit, sed imperdiet lectus ornare at.
+          </p>
+          <img src="https://picsum.photos/200" alt="me doing jiu-jitsu"/>
+        </div>
+        <div>
+          <img src="https://picsum.photos/200" alt="me at the beach"/>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+            dapibus lobortis elit, sed imperdiet lectus ornare at.
+          </p>
+        </div>
       </div>
     </div>
   );

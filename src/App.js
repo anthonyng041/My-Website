@@ -24,11 +24,11 @@ function App() {
   }
 
   return (
-    <>
+    <div>
       <Navbar />
       <Page />
       <Footer />
-    </>
+    </div>
   );
 }
 
