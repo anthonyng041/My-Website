@@ -1,7 +1,7 @@
-function Home() {
+function About() {
   return (
     <div>
-      <h2>Hey! I'm Anthony</h2>
+      <h1>Hey! I'm Anthony.</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus
         lobortis elit, sed imperdiet lectus ornare at. Maecenas leo sapien,
@@ -18,4 +18,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default About;

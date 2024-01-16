@@ -3,16 +3,16 @@ function Navbar() {
     <nav>
       <ul>
         <li>
-          <a href="/">Home</a>
+          <a href="/">About</a>
         </li>
         <li>
-          <a href="/Projects">Projects</a>
+          <a href="/Portfolio">Work</a>
         </li>
         <li>
           <a href="/Education">Education</a>
         </li>
         <li>
-          <a href="/Hobbies">Hobbies</a>
+          <a href="/Hobbies">Contact</a>
         </li>
       </ul>
     </nav>

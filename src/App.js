@@ -1,24 +1,24 @@
 import Header from "./components/Header";
-import Home from "./components/pages/Home";
-import Projects from "./components/pages/Projects";
+import About from "./components/pages/About";
+import Work from "./components/pages/Work";
 import Education from "./components/pages/Education";
-import Hobbies from "./components/pages/Hobbies";
+import Contact from "./components/pages/Contact";
 import Profile from "./components/Profile"
 
 function App() {
   let Page;
   switch (window.location.pathname) {
     case "/":
-      Page = Home;
+      Page = About;
       break;
-    case "/Projects":
-      Page = Projects;
+    case "/Work":
+      Page = Work;
       break;
     case "/Education":
       Page = Education;
       break;
-    case "/Hobbies":
-      Page = Hobbies;
+    case "/Contact":
+      Page = Contact;
       break;
     default:
   }
