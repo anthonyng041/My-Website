@@ -1,9 +1,9 @@
-import Header from "./components/Header";
+import Navbar from "./components/Navbar";
 import About from "./components/pages/About";
 import Work from "./components/pages/Work";
 import Education from "./components/pages/Education";
 import Contact from "./components/pages/Contact";
-import Profile from "./components/Profile"
+import Footer from "./components/Footer";
 
 function App() {
   let Page;
@@ -25,9 +25,9 @@ function App() {
 
   return (
     <>
-      <Header />
-      <Profile />
+      <Navbar />
       <Page />
+      <Footer />
     </>
   );
 }
