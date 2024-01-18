@@ -1,8 +1,8 @@
 function Footer() {
   return (
-    <Footer>
+    <footer>
       <div>
-        <p>ⓒ {new Date().getFullYear} Anthony Nguyen</p>
+        <p>ⓒ {new Date().getFullYear()} Anthony Nguyen</p>
       </div>
       <div>
         <figure>
@@ -20,12 +20,12 @@ function Footer() {
               <a href="https://read.cv/">CV</a>
             </li>
             <li>
-              <a href="anthonyng041@gmail.com">Email</a>
+              <a href="mailto:anthonyng041@gmail.com">Email</a>
             </li>
           </ul>
         </figure>
       </div>
-    </Footer>
+    </footer>
   );
 }
 
