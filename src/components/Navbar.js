@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <nav>
+    <nav className="navbar">
       <ul>
         <li>
           <a href="/">About</a>
