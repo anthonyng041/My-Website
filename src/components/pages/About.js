@@ -1,15 +1,15 @@
 function About() {
   return (
     <div>
-      <div>
+      <div className="welcome">
         <h1>Hey! I'm Anthony.</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus
           lobortis elit, sed imperdiet lectus ornare at.
         </p>
       </div>
-      <div>
-        <img />
+      <div className="about">
+        <img src="https://picsum.photos/200" alt="me at the beach" />
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus
           lobortis elit, sed imperdiet lectus ornare at.
@@ -19,28 +19,21 @@ function About() {
           lobortis elit, sed imperdiet lectus ornare at.
         </p>
       </div>
-      <div>
-        <p>
+      <p className="statement">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus
           lobortis elit, sed imperdiet lectus ornare at.
         </p>
-      </div>
-      <div>
-        <h2>Hobbies</h2>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-            dapibus lobortis elit, sed imperdiet lectus ornare at.
-          </p>
-          <img src="https://picsum.photos/200" alt="me doing jiu-jitsu"/>
-        </div>
-        <div>
-          <img src="https://picsum.photos/200" alt="me at the beach"/>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-            dapibus lobortis elit, sed imperdiet lectus ornare at.
-          </p>
-        </div>
+      <div className="hobbies">
+        <p className="first">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus
+          lobortis elit, sed imperdiet lectus ornare at.
+        </p>
+        <img src="https://picsum.photos/200" alt="me doing jiu-jitsu" />
+        <p className="second">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus
+          lobortis elit, sed imperdiet lectus ornare at.
+        </p>
+        <img src="https://picsum.photos/200" alt="me at the beach" />
       </div>
     </div>
   );
