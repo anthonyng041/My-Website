@@ -5,7 +5,7 @@ function Footer() {
         <p>ⓒ {new Date().getFullYear()} Anthony Nguyen</p>
       </div>
       <div>
-        <figure>
+        <figure className="find-me">
           <figcaption>Find me</figcaption>
           <ul>
             <li>
