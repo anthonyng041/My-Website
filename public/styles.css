@@ -10,6 +10,10 @@ html {
 
 .navbar {
     padding-top: 30px;
+    position: fixed;
+    top: 0;
+    left: 40%;
+    z-index: 1030;
 }
 
 .navbar ul {
@@ -28,23 +32,15 @@ html {
 
 .navbar a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 a:hover {
-    color: hotpink;
-  }
-
-a:active {
     color: gray;
-    background-color: white;
   }
-
 
 footer {
-    margin-top: 100px;
-    background-color: bisque;
-    border-radius: 5px;
+    margin-top: 80px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -75,6 +71,7 @@ footer p {
 
 .welcome {
     margin-bottom: 100px;
+    padding-top: 50px;
 }
 .welcome h1 {
     text-align: center;
@@ -112,6 +109,10 @@ footer p {
     text-align: center;
     font-size: 150%;
     margin-bottom: 100px;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hobbies {
@@ -141,7 +142,17 @@ footer p {
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     grid-row: span 3;
+}
+
+.work {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.project-card {
+    
 }
