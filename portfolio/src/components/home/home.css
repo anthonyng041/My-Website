@@ -1,11 +1,12 @@
 .home__content {
-    grid-template-columns: 116px repeat(2, 1fr);
+    grid-template-columns: 1.25fr 1fr;
     padding-top: 5.5rem;
-    column-gap: 2rem;
+    column-gap: 0;
     align-items: center;
 }
 
 .home__social {
+    padding-left: 175px;
 }
 
 .home__social-icon {
@@ -19,6 +20,25 @@
     color: var(--title-color-dark);
 }
 
+.home__title {
+    font-size: 3.25rem;
+    margin-bottom: var(--mb-0-25);
+    text-align: center;
+} 
+
+.home__subtitle {
+    position: relative;
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-normal);
+    margin-bottom: var(--mb-1);
+    text-align: center;
+}
+
+.home__description {
+    max-width: 1000px;
+    margin-bottom: var(--mb-2);
+    text-align: center;
+}
 
 .home__img {
     background: url(../../assets/me.jpg);
@@ -30,4 +50,5 @@
     justify-self: center;
     width: 300px;
     height: 300px;
+    border-radius: 20%;
 }
