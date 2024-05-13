@@ -107,13 +107,12 @@
   /* For medium devices */
   @media screen and (max-width: 768px) {
     .home__content{
-        grid-template-columns: 0.5fr 3fr;
-        padding-top: 3.5rem;; 
+        grid-template-columns: 1fr;
+        row-gap: 2.5rem;
     }
 
     .home__img {
         order: initial;
-        justify-self: initial;
     }
 
     .home__data {
@@ -130,7 +129,7 @@
     }
 
     .home__social {
-        padding-left: 0;
+       padding-left: 0; 
     }
   }
   
