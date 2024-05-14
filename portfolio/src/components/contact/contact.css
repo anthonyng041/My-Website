@@ -69,3 +69,60 @@
     border-radius: 4px;
     font-size: 13px;
 }
+
+@media(max-width:768px) {
+    .contact {
+        gap: 50px;
+        margin: 50px 70px;
+        align-items: start;
+    }
+
+    .contact-section {
+        flex-direction: column;
+    }
+
+    .contact-left h2 {
+        font-size: 20px;
+    }
+
+    .contact-right input {
+        width: 100%;
+    }
+
+    .contact-right textarea {
+        width: 500px;
+    }
+}
+
+  /* For medium devices */
+  @media screen and (max-width: 576px) {
+    .contact-right input {
+        width: 160%;
+    }
+
+    .contact-right textarea {
+        width: 160%;
+    }
+  }
+
+    /* For small devices */
+    @media screen and (max-width: 530px) {
+        .contact-right input {
+            width: 100%;
+        }
+    
+        .contact-right textarea {
+            width: 100%;
+        }
+      }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+    .contact-right input {
+        width: 100%;
+    }
+
+    .contact-right textarea {
+        width: 100%;
+    }
+  }
