@@ -1,0 +1,10 @@
+.footer {
+    margin: 50px 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer-bottom {
+    font-size: 15px;
+}
