@@ -19,18 +19,20 @@
 
 .portfolio-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 40px;
 }
 
-.portfolio-container img {
+.portfolio-container>div {
     box-sizing: border-box;
-    width: 419px;
-    height: 280px;
+    width: 600px;
+    height: 400px;
     transition: 0.3s;
+    border-radius: 1.25rem;
+    background-color: var(--container-color);
 }
 
-.portfolio-container img:hover {
+.portfolio-container>div:hover {
     transform: scale(1.10);
     border-radius: 10px;
     transition: 0.3s;
@@ -43,11 +45,11 @@
     }
 
     .portfolio-container {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 30px;
     }
 
-    .portfolio-container img {
+    .portfolio-container>div {
         width: 100%;
         height: 100%;
     }
