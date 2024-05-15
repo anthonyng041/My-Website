@@ -12,7 +12,7 @@ const Portfolio = () => {
         {mywork_data.map((work, index) => {
           return (
             <div>
-              <div><h3>{work.w_name}</h3><p>{work.description}</p><ul>{work.languages.map((language, i) => {return <li key={i}>{language}</li>})}</ul></div>
+              <div><h3>{work.w_name}</h3><p>{work.description}</p><ul className="tags">{work.languages.map((language, i) => {return <li className="tag" key={i}>{language}</li>})}</ul></div>
               <img key={index} src={work.w_img} alt="" />
             </div>
           );
