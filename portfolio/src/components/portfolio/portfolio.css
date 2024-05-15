@@ -28,7 +28,6 @@
     width: 419px;
     height: 280px;
     transition: 0.3s;
-    cursor: pointer;
 }
 
 .portfolio-container img:hover {
