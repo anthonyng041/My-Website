@@ -1,7 +1,7 @@
 import React from 'react';
 import "./about.css";
-import AboutImg from "../../assets/me.jpg";
-import CV from "../../assets/John-Cv.pdf"
+import AboutImg from "../../assets/me2.jpg";
+import CV from "../../assets/CV.pdf"
 
 const About = () => {
   return (
@@ -43,6 +43,7 @@ const About = () => {
                 </a>
             </div>
         </div>
+        <br /><br />
     </section>
   )
 }

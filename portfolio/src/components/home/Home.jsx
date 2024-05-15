@@ -16,6 +16,7 @@ const Home = () => {
             </div>
 
             <ScrollDown />
+            <br />
         </div>
     </section>
   )
