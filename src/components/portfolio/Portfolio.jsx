@@ -1,6 +1,7 @@
 import React from "react";
 import "./portfolio.css";
 import mywork_data from "../../assets/mywork_data.js";
+import Project from "./Project.jsx";
 
 const Portfolio = () => {
   return (
@@ -11,10 +12,7 @@ const Portfolio = () => {
       <div className="portfolio-container">
         {mywork_data.map((work, index) => {
           return (
-            <div>
-              <div><h3>{work.w_name}</h3><p>{work.description}</p><ul className="tags">{work.languages.map((language, i) => {return <li className="tag" key={i}>{language}</li>})}</ul></div>
-              <img key={index} src={work.w_img} alt="" />
-            </div>
+            <Project work={work} index={index}/>
           );
         })}
       </div>
