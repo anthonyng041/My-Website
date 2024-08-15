@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/My-Website/static/css/main.6eafc2bc.css",
-    "main.js": "/My-Website/static/js/main.7be6b20b.js",
+    "main.js": "/My-Website/static/js/main.6a5fa08d.js",
     "static/media/HFESTS.png": "/My-Website/static/media/HFESTS.32b0c51a4ba2295caeb0.png",
-    "static/media/CV.pdf": "/My-Website/static/media/CV.5733e0472c449d0ddcfc.pdf",
+    "static/media/CV.pdf": "/My-Website/static/media/CV.5769b418f8a93d43eaa2.pdf",
     "static/media/MachineLearning.png": "/My-Website/static/media/MachineLearning.1c741681752ac9d5a844.png",
     "static/media/me.jpg": "/My-Website/static/media/me.d10b289eaa0234ae183f.jpg",
     "static/media/ConcordiaCart.png": "/My-Website/static/media/ConcordiaCart.bbdf4805f48f125155a3.png",
@@ -14,10 +14,10 @@
     "index.html": "/My-Website/index.html",
     "static/media/location_icon.svg": "/My-Website/static/media/location_icon.111157f177e78ee2c0025016c0206379.svg",
     "main.6eafc2bc.css.map": "/My-Website/static/css/main.6eafc2bc.css.map",
-    "main.7be6b20b.js.map": "/My-Website/static/js/main.7be6b20b.js.map"
+    "main.6a5fa08d.js.map": "/My-Website/static/js/main.6a5fa08d.js.map"
   },
   "entrypoints": [
     "static/css/main.6eafc2bc.css",
-    "static/js/main.7be6b20b.js"
+    "static/js/main.6a5fa08d.js"
   ]
 }
