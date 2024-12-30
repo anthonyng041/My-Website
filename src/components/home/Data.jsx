@@ -7,9 +7,9 @@ const Data = () => {
         <h1 className="home__title">
             Anthony Nguyen
         </h1>
-        <h3 className="home__subtitle"> Master's Student in IT Engineering</h3>
+        <h3 className="home__subtitle"> Master's Student in Computer Science</h3>
         <br />
-        <p className="home__description">I have recently graduated from Concordia University with a bachelor's degree in Computer Science and I am dedicated to self-improvement. I am currently pursuing a master's degree in IT Engineering at ÉTS.</p>
+        <p className="home__description">I have recently graduated from Concordia University with a bachelor's degree in Computer Science and I am dedicated to self-improvement. I am currently pursuing a master's degree in Computer Science at UdeM.</p>
         <br />
         <Socials />
     </div>
