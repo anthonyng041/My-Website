@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/My-Website/static/css/main.2338e109.css",
-    "main.js": "/My-Website/static/js/main.74b88b80.js",
-    "static/media/me.jpg": "/My-Website/static/media/me.8b11b547928484593c98.jpg",
+    "main.css": "/My-Website/static/css/main.6eafc2bc.css",
+    "main.js": "/My-Website/static/js/main.76b22533.js",
     "static/media/HFESTS.png": "/My-Website/static/media/HFESTS.32b0c51a4ba2295caeb0.png",
     "static/media/CV.pdf": "/My-Website/static/media/CV.e1dcfb5fa202b3f818ad.pdf",
     "static/media/MachineLearning.png": "/My-Website/static/media/MachineLearning.1c741681752ac9d5a844.png",
-    "static/media/me2.jpg": "/My-Website/static/media/me2.d10b289eaa0234ae183f.jpg",
+    "static/media/me.jpg": "/My-Website/static/media/me.d10b289eaa0234ae183f.jpg",
     "static/media/ConcordiaCart.png": "/My-Website/static/media/ConcordiaCart.bbdf4805f48f125155a3.png",
     "static/media/ArtificialIntelligence.png": "/My-Website/static/media/ArtificialIntelligence.2572b87c1eb856784705.png",
+    "static/media/me2.jpg": "/My-Website/static/media/me2.e3ba7439c805483f450f.jpg",
     "static/media/call_icon.svg": "/My-Website/static/media/call_icon.fec62cc3d3fb69f5ce5f05a0724a0425.svg",
     "static/media/mail_icon.svg": "/My-Website/static/media/mail_icon.9eae5516c8c1364a170e8b13ae4c18cf.svg",
     "index.html": "/My-Website/index.html",
     "static/media/location_icon.svg": "/My-Website/static/media/location_icon.111157f177e78ee2c0025016c0206379.svg",
-    "main.2338e109.css.map": "/My-Website/static/css/main.2338e109.css.map",
-    "main.74b88b80.js.map": "/My-Website/static/js/main.74b88b80.js.map"
+    "main.6eafc2bc.css.map": "/My-Website/static/css/main.6eafc2bc.css.map",
+    "main.76b22533.js.map": "/My-Website/static/js/main.76b22533.js.map"
   },
   "entrypoints": [
-    "static/css/main.2338e109.css",
-    "static/js/main.74b88b80.js"
+    "static/css/main.6eafc2bc.css",
+    "static/js/main.76b22533.js"
   ]
 }
