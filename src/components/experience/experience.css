@@ -1,0 +1,57 @@
+.experience{
+  padding: 2rem 1rem;
+  background: #f8fafc;
+}
+
+.experience .container{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.section__title{
+  font-size: 1.35rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #0f172a;
+}
+
+.experience__item{
+  background: #ffffff;
+  padding: 1rem 1.25rem;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(2,6,23,0.06);
+}
+
+.experience__company{
+  font-weight: 700;
+  margin: 0;
+  color: #0b1220;
+}
+
+.experience__role{
+  margin: 0.25rem 0;
+  color: #334155;
+}
+
+.experience__dates{
+  font-size: 0.9rem;
+  color: #64748b;
+  margin-bottom: 0.75rem;
+}
+
+.experience__desc p{
+  margin: 0;
+  color: #334155;
+}
+
+.experience__list{
+  margin: 0;
+  padding-left: 1.25rem;
+  color: #334155;
+}
+
+.experience__list li{
+  margin-bottom: 0.5rem;
+  line-height: 1.45;
+}
