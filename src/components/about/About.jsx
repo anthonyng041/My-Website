@@ -12,9 +12,9 @@ const About = () => {
 
             <div className="about__data">
 
-                <p className="about__description">Ever since my first physics class, I've been captivated by the elegance of math and physics, always eager to tackle complex problems and expand my knowledge. My journey into programming began in college, where I discovered a passion that would lead me towards a career as a full-stack or backend developer. Pursuing a degree in Computer Science at Concordia University further fueled my interest, exposing me to a wide range of subjects including various programming languages, data structures and algorithms, databases, machine learning, web development, and software engineering. I made it to the Dean's List in the academic year 2022-2023.</p>
+                <p className="about__description">My journey into programming began in college, where I discovered a passion that would lead me towards a career as a full-stack developer. Pursuing a degree in Computer Science at Concordia University further fueled my interest, exposing me to a wide range of subjects including various programming languages, data structures and algorithms, databases, machine learning, web development, and software engineering.</p>
             
-                <p className="about_description">Beyond the world of computers and code, I find joy in activities that challenge both my mind and body. I'm an avid bodybuilder and practitioner of jiu-jitsu. Currently weighing 77 kg at 5 foot 7, with a body fat percentage around 16%, I'm committed to both physical fitness and mental acuity. My dedication to jiu-jitsu has led me to compete in two tournaments, including a memorable bronze medal win at Submission Arts United: Winter Montreal 2024, where I triumphed in a fierce 15-man bracket for white belts at 82.3 kg. Looking ahead, I'm gearing up for the Marathon of Montreal in September 2024, excited for the challenges and rewards that lie ahead.
+                <p className="about_description">Beyond the world of computers and code, I find joy in activities that challenge both my mind and body. I'm an avid lifter and practitioner of jiu-jitsu.
 </p>
                 <br /><br />
                 <a download="" href={CV} className="button button--flex">Download CV
