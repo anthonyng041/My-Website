@@ -5,17 +5,20 @@
 }
 
 .skills__content {
-    background-color: var(--container-color);
-    border: 1px solid rgba(0,0,0,0.1);
-    padding: 2rem 4rem;
-    border-radius: 1.25rem;
+    background: #ffffff;
+    padding: 1rem 1.25rem;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(2,6,23,0.06);
+    border: none;
 }
 
 .skills__title {
     font-size: var(--normal-font-size);
-    font-weight: var(--font-medium);
+    font-weight: 700;
     text-align: center;
     margin-bottom: var(--mb-1-5);
+    color: #0b1220;
+    text-transform: none;
 }
 
 .skills__box {
@@ -35,7 +38,7 @@
     column-gap: 0.5rem;
 }
 
-.skills .bx-badge-check {
+.skills__content .bx-badge-check {
     font-size: 1rem;
     color: var(--title-color);
 }
